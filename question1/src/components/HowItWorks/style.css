@@ -1,0 +1,64 @@
+/* HowToInvestSection.css */
+.how-to-invest-section {
+  text-align: center;
+  margin: 50px 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.invest-section{
+  max-width: 400px;
+}
+.section-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+}
+.how-to-invest-section h2 {
+  font-size: 2em; /* Adjust the size as needed */
+  color: #333; /* Adjust the color as needed */
+}
+.toggle-icon{
+    margin-left:10px
+}
+.investment-details {
+  margin-top: 20px;
+}
+
+.investment-details .detail {
+  margin-bottom: 20px;
+}
+
+.investment-details h3 {
+  font-size: 1.5em; /* Adjust the size as needed */
+  color: #333; /* Adjust the color as needed */
+}
+
+.investment-details p {
+  font-size: 1em; /* Adjust the size as needed */
+  color: #666; /* Adjust the color as needed */
+}
+.section-content{
+  display: flex;
+  flex-direction: column;
+}
+.start-now-btn{
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.section-content ::before{
+  border: "blue 2px solid";
+}
+.investment-details button {
+  background-color: #000; /* Adjust the color as needed */
+  color: #fff; /* Adjust the text color as needed */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

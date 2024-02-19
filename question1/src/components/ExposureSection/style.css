@@ -1,0 +1,43 @@
+.exposure-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+.reasons-grid {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns with equal width */
+  gap: 20px;
+}
+
+.reason {
+  border: 1px solid white;
+  padding: 20px;
+  height:250px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(221, 221, 221);
+}
+
+.reason h2 {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.reason p {
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .reason h2 {
+    font-size: 1.5em;
+  }
+}
+
+.reason:hover{
+    background-color: white;
+    border:2px solid blue;
+}

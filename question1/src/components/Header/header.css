@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000; /* Assuming a dark background based on your image */
+  color: #fff;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.header__nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header__nav ul li a:hover {
+  color: #aaa; /* Change hover color as needed */
+}
+
+.header__signin button {
+  padding: 10px 20px;
+  background-color: #555; /* Adjust button background as needed */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header__signin button:hover {
+  background-color: #777; /* Change hover background as needed */
+}

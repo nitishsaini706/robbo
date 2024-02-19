@@ -1,0 +1,155 @@
+.card {
+    width: 500px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 16px;
+    background-color: #fff; /* Adjust background color as needed */
+    color: #000; /* Adjust text color as needed */
+    position: relative;
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.location,
+.agent {
+    margin: 0;
+    font-size: 16px;
+}
+
+.agent {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+    background-color: #f8f8f8; /* Adjust background color as needed */
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.tag {
+    background-color: #e0e0e0; /* Adjust tag background color as needed */
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 20px;
+    margin-bottom: 16px;
+    color: black;
+
+}
+.price-inside {
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    border:2px solid rgba(149, 149, 149, 0.492)
+}
+.price-inside:hover {
+    color:purple;
+    border : purple 2px solid;
+}
+.card-actions {
+    display: flex;
+    justify-content: start;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.invest {
+    margin-right: 10px;
+    background-color: black; /* Adjust button color as needed */
+    color: white;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.791); /* Adjust button color as needed */
+    color: black;
+    border: 2px black solid;
+}
+
+
+.alternativeInvestments {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px 50px; /* Adjust padding as needed */
+  font-family: 'Arial', sans-serif; /* Use the font from your design */
+}
+
+.title {
+  font-size: 48px; /* Adjust font-size as needed */
+  margin-bottom: 30px;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 600px; /* Adjust width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonGroup {
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block; /* To make buttons align in a row */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.learnMoreButton {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.learnMoreButton:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.price p{
+    margin :0
+}
